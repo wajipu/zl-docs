@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/<REPO>/',
+  base: '/',
   lang: 'zh-CN',
   title: '众流前端开发文档',
   description: '众流前端开发文档',
@@ -19,7 +19,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://wajipu.github.io/<REPO>/',
+    hostname: 'https://wajipu.github.io/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
