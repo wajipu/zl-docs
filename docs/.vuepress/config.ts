@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/<REPO>/',
   lang: 'zh-CN',
   title: '众流前端开发文档',
   description: '众流前端开发文档',
@@ -19,7 +19,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://wajipu.github.io/',
+    hostname: 'https://wajipu.github.io/<REPO>/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -28,7 +28,7 @@ export default defineUserConfig({
 
     /* 页内信息 */
     editLink: true,
-    lastUpdated: true,
+    // lastUpdated: true,
     contributors: true,
     changelog: false,
 
@@ -91,7 +91,7 @@ export default defineUserConfig({
     // },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
-    readingTime: true,
+    // readingTime: true,
 
     /**
       * markdown
