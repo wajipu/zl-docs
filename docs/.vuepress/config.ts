@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/<REPO>/',
+  base: '/zl-docs/',
   lang: 'zh-CN',
   title: '众流前端开发文档',
   description: '众流前端开发文档',
